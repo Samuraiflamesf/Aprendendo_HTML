@@ -1,0 +1,26 @@
+*{
+    margin:10px;
+    text-align:center;
+    box-sizing: border-box;
+}
+.texto{
+    color: green;
+}
+img {
+    height: 200px;
+    border-radius: 50%;
+    border-bottom: 10px;
+}
+.butao1{
+    color: blueviolet;
+}
+button{
+    width: 300px;
+    height: 100px;
+    color: rebeccapurple;
+    
+}
+.butao1:hover{
+    
+    color: green;
+}

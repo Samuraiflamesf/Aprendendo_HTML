@@ -1,0 +1,23 @@
+*{
+    margin:10px;
+    text-align:center;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: black;
+
+}
+.b{
+    border:1px solid #000;
+    padding: 20px 600px;
+}
+.txtFim{
+ color: orange;
+
+}
+.txt{
+    color:white
+}
+.titulo {
+    margin: 10px;
+    color: aqua;
+}

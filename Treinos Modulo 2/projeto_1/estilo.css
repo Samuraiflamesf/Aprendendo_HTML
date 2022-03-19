@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;/*Para fazer calculo do conteudo*/
+}
+.exemplo{
+    border:1px solid #000;
+    padding: 20px 600px;
+}
+.cab{
+    background-color: rebeccapurple;
+    width: auto;
+    height: 50px;
+}
+.txt{
+    color: white;
+    margin: 0px;
+    padding: 10px 20px;
+}
+body {
+    margin: 0px;
+}

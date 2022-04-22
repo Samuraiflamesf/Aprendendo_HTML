@@ -1,5 +1,19 @@
 *{
     margin:10px;
     text-align:center;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+}
+.texto{
+    width: 300px;
+    height: 100px;
+    background-color: #EEEEEE;
+    color: #FF0000;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+
+    display: inline;
 }

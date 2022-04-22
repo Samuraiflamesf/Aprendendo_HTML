@@ -3,3 +3,14 @@
     text-align:center;
     box-sizing: border-box;
 }
+.texto{
+    width: 500px;
+    height: 300px;
+    background-color: aqua;
+    color: #ff0000;
+    font-size: 30px;
+    font-family: Helvetica, verdana;
+    font-weight: normal;
+    text-decoration: underline;
+    text-transform: lowercase;
+    }

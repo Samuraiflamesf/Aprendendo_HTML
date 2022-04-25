@@ -15,5 +15,10 @@
     text-decoration: underline;
     margin-bottom: 10px;
 
-    display: inline;
+    display: inline-block;/*Em linha de blocos */
+    /*display: none; Em Some */
+    /*display: block; Em blocos */
+    /*display: block;Em linha */
+
+    
 }

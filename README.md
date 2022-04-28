@@ -1,2 +1,2 @@
-<h2>HTML + CSS</h2>
-<h6>Arquivos desenvolvidos, enquanto aprendia a linguagem sem uma visao objetivo claro de projeto</h6>
+<h2 align="center">HTML + CSS</h2>
+<h4 align="center">Arquivos desenvolvidos, enquanto aprendia a linguagem<br> sem uma visao objetivo claro de projeto</h4>

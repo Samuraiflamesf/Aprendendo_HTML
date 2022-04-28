@@ -1,2 +1,2 @@
-<h2>Projetos em  HTML e CSS</h2>
- Codigos de Aplicação Web
+<h2>HTML + CSS</h2>
+<h6>Arquivos desenvolvidos, enquanto aprendia a linguagem sem uma visao objetivo claro de projeto</h6>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Html e Css</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1 id="titulo">Curso Html e Css</h1>
+    <!-- INICIO -->
+    <form action="pages/login.html" method="post">
+        User:<input type="text" name="user">
+        Password:<input type="password" name="password">
+        <br>
+        Email:<input type="email" name="email">
+        Telefone: <input type="telefone">
+        <br>
+        Data de nascimento:<input type="date" name="nascimento">
+        Horario livre: <input type="time" name="time">
+        <br>
+        URL: <input type="url" name="URL">
+        <div>
+            <p>Nivel de cabelo:</p>
+            CALVO <input type="range" name="calvo"> CABELAO
+        </div>
+
+        <div>
+            <select name="order[]" size="2" multiple>
+                <option value="fist">
+                    Primeiro
+                </option>
+                <option value="last">
+                    Ultimo
+                </option>
+            </select>
+        </div>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

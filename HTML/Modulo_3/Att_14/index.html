@@ -1,13 +1,45 @@
 <!doctype html>
-<html> 
-    <head>
-        <meta charset="utf-8">
-        <title>JavaSript</title>    
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <h1 id="titulo">Curso Html e Css</h1>
-        <!-- INICIO -->
-        <p>Teste</p>
-    </body>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Html e Css</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1 id="titulo">Curso Html e Css</h1>
+    <!-- INICIO -->
+    <form action="pages/login.html" method="post">
+
+        <label for="nome">
+            CAMPO NOME <br>
+            <input type="nome" id="nome">
+        </label>
+        
+        <label>
+            Descrição: <br>
+            <textarea name="descricao" id="descr" cols="30" rows="10"></textarea>
+        </label>
+        
+        <label>
+            Email:
+            <input type="email">
+        </label>
+        <label>
+            <Select>
+                <option value="1">Opcao 1</option>
+                <option value="2">Opcao 2</option>
+                <option value="3">Opcao 3</option>
+            </Select>
+        </label>
+        <label for="declaro">
+            Eu declaro ter lido tudo <br>
+            <input type="checkbox" id="declaro">
+        </label>
+        <input type="submit" value="Enviar">
+    
+    </form>
+</body>
+
 </html>

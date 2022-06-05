@@ -6,42 +6,27 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <!-- 
-            Validação por required, minlength,maxlength
-         -->
-       <form method="post" action="php.php">
+       <form method="post">
            <fieldset>
             <legend>Dados Pessoais</legend>
                <label>
                    Primeiro Nome: <br>
-                   <input type="text" name="name" required minlength="3" maxlength="24">
+                   <input type="text" name="name">
                 </label><br>
                 <label>
                     Segundo Nome: <br>
                     <input type="text" name="name">
                 </label><br>
-                <label>
-                    E-mail: <br>
-                <input type="text" name="email" required>
-            </label><br>
-                <label>
-                    Idade: <br>
-                <input type="number" name="age" min="18" max="120" required>
-            </label><br>
-            <label>
-                Data de Nascimento: <br>
-            <input type="date" name="agedadte" min="21-07-2001" max="" required>
-        </label><br>
             </fieldset>
             <fieldset>
                 <legend>Dados Profissionais</legend>
                 <label>
                     Nome da Empresa: <br>
-                <input type="text" name="name" required>
+                <input type="text" name="name">
             </label><br>
             <label>
                 Cargo: <br>
-                <input type="text" name="name" required>
+                <input type="text" name="name">
             </label><br>    
             <label>
                 Salario: <br>

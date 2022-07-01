@@ -1,5 +1,7 @@
-*{
-    margin:10px;
-    text-align:center;
-    box-sizing: border-box;
+div{
+    margin: 20px;
+    height: 30px;
+}
+div:empty{
+    display: none;
 }

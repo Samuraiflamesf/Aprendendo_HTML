@@ -1,5 +1,7 @@
-*{
-    margin:10px;
-    text-align:center;
-    box-sizing: border-box;
+div:nth-child(2){
+    background-color: aquamarine;
+}
+div:nth-last-child(2){
+    background-color: black;
+    color: aliceblue;
 }

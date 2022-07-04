@@ -3,3 +3,23 @@
     text-align:center;
     box-sizing: border-box;
 }
+.tarja{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: rotate(-40deg);
+    margin: 70px -150px 100px;
+    text-transform: uppercase;
+}
+a{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 150px;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    outline: 10px solid black;
+    box-shadow: 0px 0px 20px black;
+
+}

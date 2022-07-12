@@ -3,3 +3,13 @@
     text-align:center;
     box-sizing: border-box;
 }
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.item{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 21px;
+}
